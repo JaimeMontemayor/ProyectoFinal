@@ -1,0 +1,45 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background: linear-gradient(
+        rgba(0,0,0,0.95),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)
+        )no-repeat
+        ,url(./assets/inicioBG.jpg)no-repeat;
+        background-size: cover;
+}
+
+.box{
+    width: 960px;
+    float: right;
+    border: 1px solid black;
+}
+
+.box ul li{
+    width: 120px;
+    float: right;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.box ul li a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+
+.box ul li:hover{
+    background-color: orange;
+}
+
+.box ul li a:hover{
+    color: black;
+}
+
+.wd{
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    padding: 10px;
+    border: 2px solid orange;
+}
