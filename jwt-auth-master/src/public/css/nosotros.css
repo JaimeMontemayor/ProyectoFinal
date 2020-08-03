@@ -1,0 +1,140 @@
+.content{
+  width: 90%;
+  margin: auto;
+  padding: 15px;
+}
+
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  background: linear-gradient(
+      rgba(0,0,0,0.95),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)
+      )no-repeat
+      ,url(./assets/connectwork.png) repeat;
+     /* background-size: cover; */
+}
+
+.box{
+  width: 960px;
+  float: right;
+  border: 1px solid black;
+}
+
+.box ul li{
+  width: 120px;
+  float: right;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.box ul li a{
+  text-decoration: none;
+  color: orange;
+  font-weight: bold;
+}
+
+/*.box ul li:hover{
+  background-color: orange;
+  color: black;
+}*/
+
+.box ul li a:hover{
+  background-color: orange;
+  color: black;
+} 
+
+.wd{
+  width: 25%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.7;
+  padding: 10px;
+  border: 2px solid orange;
+}
+
+.imgNosotros{
+  width: 100%;
+  height: 15%;
+  margin-top: 1%;
+}
+.imagen{
+  position:relative;
+  text-align:center;
+  margin: 0%;
+}
+
+.title{
+  position:absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 35px;
+  padding-top: 15px;
+  font-weight: bolder;
+}
+
+.placeH1{
+  width: 30%;
+  height: 25%;
+  display: flex;
+  float: left;
+}
+
+.placeH2{
+  width: 30%;
+  height: 30%;
+  display: flex;
+  float: right;
+}
+
+.info1{
+  width: 100%;
+}
+
+.misText{
+  display: flex;
+  padding-right: 10%;
+}
+
+.visText{
+  display: flex;
+  margin-left: 100%;
+}
+
+.nosotros{
+  display: flex;
+  margin-top: 50px;
+}
+
+subtitle{
+  padding-left: 15px;
+}
+
+p{
+  text-align: justify;
+}
+
+footer{
+  width: 98%;
+  background-color: darkgray;
+  padding: 10px;
+  margin: 0px;
+  display: flex;
+}
+
+.base{
+  display: flex;
+  align-content: center;
+  margin: auto;
+  margin-top: 5px;
+}
+
+li{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+li:hover{
+  
+}
