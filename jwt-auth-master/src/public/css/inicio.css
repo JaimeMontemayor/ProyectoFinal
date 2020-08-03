@@ -77,24 +77,142 @@ body{
     color: black;
     border: 2px black solid;
 }
-
-/* computadora */
-@media (min-width:768px){
-
-
+.hamburger {
+    visibility: hidden;
+    max-height: 0;
+    padding: 0;
 }
 
-/* tablet */
-@media (min-width:320px) and (max-width:767px){
-
+.menu{
+    visibility: visible;
+}
+/* computadora */
+@media (min-width:768px){
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        background: linear-gradient(
+            rgba(0,0,0,0.95),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)
+            )no-repeat
+            ,url(./assets/inicioBG.jpg)no-repeat;
+            background-size: cover;
+    }
+    
+    .box{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 550px;
+        float: right;
+        /*border: 1px solid black;*/
+    }
+    
+    .box ul li{
+        width: 120px;
+        float: right;
+        margin: 10px auto;
+        text-align: center;
+    }
+    
+    .box ul li a{
+        text-decoration: none;
+        color: orange;
+        font-weight: bold;
+    }
+    
+    .box ul li a:hover{
+        background-color: orange;
+        color: black;
+    }
+    
     .wd{
-        width: 100%;
+        width: 320px;
+        height: 100%;
+        background-color: black;
+        opacity: 0.7;
+        padding: 20px;
+        border: 2px solid orange;
+    }
+    
+    .wd h1{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    .wd p{
+        text-align: justify;
+        color: darkgray;
+        font-weight: normal;
+    }
+    
+    .wd h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: normal;
+        margin: 40px auto;    
+    }
+    
+    .opt form, input[type="button"]{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin: -14px auto;
+        padding-left: auto;
+        padding-right: auto;
+        text-align: center;
+    }
+    
+    .opt form, input[type="button"]:hover{
+        background-color: orange;
+        color: black;
+        border: 2px black solid;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: row;
+        color: orange;
+        background-color: orange;
+        justify-content: flex-end;
+        margin-top: 0;
+    }
+
+    .menu{
+        visibility: visible;
     }
 
 }
-/*celulares*/
-@media (max-width:319px){
+
+
+@media (min-width:900px){
+    .hamburger{
+      visibility: hidden;
+    }
+    .box ul li{
+      visibility: visible;
+    }
+  }
+  
+  @media (min-width:360px) and (max-width:899px){
+    .wd{
+        width: 95%%;
+    }
+    .hamburger{
+      visibility: visible;
+    }
+    .box ul li{
+      visibility: hidden;
+    }
+  }
+  
+  @media (max-width:359px){
     .wd{
         width: 319px;
     }
-}
+    .hamburger{
+      visibility: visible;
+    }
+    .box ul li{
+      visibility: hidden;
+    }
+  }
