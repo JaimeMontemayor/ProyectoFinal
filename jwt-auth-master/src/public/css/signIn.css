@@ -1,6 +1,11 @@
 html,
 body {
   height: 100%;
+  background: linear-gradient(
+    rgba(0,0,0,0.95),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)
+    )no-repeat
+    ,url(./assets/inicioBG.jpg)no-repeat;
+    background-size: cover;
 }
 
 body {
@@ -15,7 +20,21 @@ body {
   justify-content: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #f5f5f5;
+}
+
+h1{
+  color: white;
+  font-weight: bold;
+}
+
+input[type="checkbox"]{
+  color: white;
+  font-weight: bold;
+}
+
+p{
+  color: white;
+  font-weight: bold;
 }
 
 .form-signin {

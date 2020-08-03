@@ -9,9 +9,11 @@ body{
 }
 
 .box{
-    width: 960px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 550px;
     float: right;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .box ul li{
@@ -33,7 +35,7 @@ body{
 }
 
 .wd{
-    width: 25%;
+    width: 320px;
     height: 100%;
     background-color: black;
     opacity: 0.7;
@@ -74,4 +76,25 @@ body{
     background-color: orange;
     color: black;
     border: 2px black solid;
+}
+
+/* computadora */
+@media (min-width:768px){
+
+
+}
+
+/* tablet */
+@media (min-width:320px) and (max-width:767px){
+
+    .wd{
+        width: 100%;
+    }
+
+}
+/*celulares*/
+@media (max-width:319px){
+    .wd{
+        width: 319px;
+    }
 }
