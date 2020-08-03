@@ -135,6 +135,33 @@ li{
   margin-right: 15px;
 }
 
-li:hover{
-  
+.hamburger{
+  visibility: hidden;
+}
+
+@media (min-width:900px){
+  .hamburger{
+    visibility: hidden;
+  }
+  .box ul li{
+    visibility: visible;
+  }
+}
+
+@media (min-width:360px) and (max-width:899px){
+  .hamburger{
+    visibility: hidden;
+  }
+  .box ul li{
+    visibility: visible;
+  }
+}
+
+@media (max-width:359px){
+  .hamburger{
+    visibility: visible;
+  }
+  .box ul li{
+    visibility: hidden;
+  }
 }
