@@ -76,15 +76,11 @@ body{
 }
 
 .placeH1{
-  width: 30%;
-  height: 25%;
   display: flex;
   float: left;
 }
 
 .placeH2{
-  width: 30%;
-  height: 30%;
   display: flex;
   float: right;
 }

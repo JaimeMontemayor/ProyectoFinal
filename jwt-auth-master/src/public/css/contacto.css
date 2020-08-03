@@ -141,5 +141,21 @@ li{
 }
 
 .conText{
-  float:right;
+  margin-top: 25px;
+  margin-left: 15px;
+  background-color: darkgray;
+  padding: 15px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.contLi{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
