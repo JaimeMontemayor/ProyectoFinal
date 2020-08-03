@@ -16,7 +16,6 @@ body{
 
 .box{
   width: 960px;
-  float: right;
   border: 1px solid black;
 }
 
@@ -69,7 +68,7 @@ body{
   left: 50%;
   transform: translate(-50%,-50%);
   width: 100%;
-  height: 35px;
+  height: 70px;
   padding-top: 15px;
   font-weight: bolder;
 }
@@ -135,6 +134,12 @@ li{
   margin-right: 15px;
 }
 
-li:hover{
+.mapD{
+  display: flex;
+  margin-top: 25px;
   
+}
+
+.conText{
+  float:right;
 }
